@@ -2,7 +2,14 @@ import streamlit as st
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 
+import pandas as pd
+
+df = pd.read_csv("./prompts.csv")
+
 st.title("🦜🔗 Langchain - Blog Outline Generator App")
+
+st.write(df)
+
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
