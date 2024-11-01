@@ -1,6 +1,6 @@
-streamlit
-openai
-langchain
-langchain_openai
-wikipedia
-langchain_community
+streamlit==1.39.0
+openai==1.53.0
+langchain==0.3.4
+langchain_openai==0.2.5
+langchain-community==0.3.3
+wikipedia==1.4.0
