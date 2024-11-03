@@ -1,11 +1,10 @@
-#Install
+## Install
 install pip install -r requirements
 
-#Run
+## Run
 streamlit run main.py
 
----
-
+## RAG
 You will also need to create:
 
 - A search application [here](https://cloud.google.com/generative-ai-app-builder/docs/create-engine-es)
