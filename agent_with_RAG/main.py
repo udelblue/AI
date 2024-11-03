@@ -8,7 +8,7 @@ from langchain.prompts import PromptTemplate
 from langchain_community.utilities import WikipediaAPIWrapper
 from langchain.agents.agent_types import AgentType
 from langchain.agents import Tool, initialize_agent
-from agent_with_RAG.rag.chain import chain
+from rag import chain
 
 st.title("Agent with RAG")
 
