@@ -11,13 +11,8 @@ st.title("Agent with tools")
 
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
-
-
-
-
 def generate_response(question):
     llm = OpenAI(temperature=0, streaming=True, api_key=openai_api_key)
-
 
     # prompt for reasoning based tool
     word_problem_template = """You are a reasoning agent tasked with solving t he user's logic-based questions. Logically arrive at the solution, and be factual. In your answers, clearly detail the steps involved and give the final answer. Provide the response in bullet points. Question  {question} Answer"""
@@ -49,11 +44,6 @@ def generate_response(question):
         description="A useful tool for searching the Internet to find information on world events, issues, dates, "
                     "years, etc. Worth using for general topics. Use precise questions.",
     )
-
-
-
-
-
     
     agent = initialize_agent(
      tools=[wikipedia_tool, math_tool, word_problem_tool], llm=llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True,handle_parsing_errors=True
