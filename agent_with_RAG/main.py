@@ -15,8 +15,7 @@ st.title("Agent with RAG")
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
 def generate_response(question):
-    chain = chain.invoke(question)
-    
+    chain = chain.invoke(question) 
     st.info(chain)
 
 with st.form("my_form"):
