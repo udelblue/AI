@@ -8,8 +8,8 @@ For each project, refer to the individual README.md file within the correspondin
 ### Subdirectories:
 Simple - Just a plain LLM user must provide openai key.
 
-agent_with_tools - Agent using tools (Calculator, Wikipedia, Prompt template) to formulate an answer.
+Agent_with_tools - Agent using tools (Calculator, Wikipedia, Prompt template) to formulate an answer.
 
-agent_with_RAG - Agent using GCP Vector Search as a RAG.
+
 
 
