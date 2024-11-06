@@ -1,6 +1,16 @@
+import os
 import streamlit as st
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
+
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv(), override=True)
+
+
+#added to get past https://docs.trychroma.com/troubleshooting#sqlite error on linux
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
 # loading PDF, DOCX and TXT files as LangChain Documents
@@ -74,13 +84,12 @@ def clear_history():
 
 
 if __name__ == "__main__":
-    import os
-
-
     st.subheader('LLM Question-Answering Application')
     with st.sidebar:
         # text_input for the OpenAI API key (alternative to python-dotenv and .env)
         api_key = st.text_input('OpenAI API Key:', type='password')
+        if api_key:
+            os.environ['OPENAI_API_KEY'] = api_key
 
         # file uploader widget
         uploaded_file = st.file_uploader('Upload a file:', type=['pdf', 'docx', 'txt'])
