@@ -10,6 +10,6 @@ Simple - Just a plain LLM user must provide openai key.
 
 Agent_with_tools - Agent using tools (Calculator, Wikipedia, Prompt template) to formulate an answer.
 
-
+LLM_simple_RAG - plain LLM to chat with documents (PDF, DOCX and TXT). Application uses Chroma as a simple vector store.
 
 
