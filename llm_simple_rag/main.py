@@ -6,12 +6,10 @@ from langchain.vectorstores import Chroma
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv(), override=True)
 
-
 #added to get past https://docs.trychroma.com/troubleshooting#sqlite error on linux
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
 
 # loading PDF, DOCX and TXT files as LangChain Documents
 def load_document(file):
