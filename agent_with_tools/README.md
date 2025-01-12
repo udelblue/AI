@@ -1,5 +1,5 @@
 ## Install
-install pip install -r requirements
+pip install -r requirements.txt
 
 ## Run
 streamlit run main.py

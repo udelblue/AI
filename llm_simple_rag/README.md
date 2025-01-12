@@ -1,5 +1,5 @@
 ## Install
-install pip install -r requirements
+pip install -r requirements.txt
 
 rename .env-example to .env and replace sk-*********************************** with you openapi key
 
