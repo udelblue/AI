@@ -12,4 +12,6 @@ Agent_with_tools - Agent using tools (Calculator, Wikipedia, Prompt template) to
 
 LLM_simple_RAG - plain LLM to chat with documents (PDF, DOCX and TXT). Application uses Chroma as a simple vector store.
 
-autogen_blog_writer - example to agentic AI with autogen.
+autogen_blog_writer - Example to agentic AI with autogen.
+
+AWS_bedrock_call_model - Example to call model from AWS bedrock.
