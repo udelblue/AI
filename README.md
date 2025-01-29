@@ -15,3 +15,7 @@ LLM_simple_RAG - plain LLM to chat with documents (PDF, DOCX and TXT). Applicati
 autogen_blog_writer - Example to agentic AI with autogen.
 
 AWS_bedrock_call_model - Example to call model from AWS bedrock.
+
+Azure ai foundry - Function calls -  is a pdf of how to setup and execute function calls within Azure foundry.
+
+Azure ai foundry - RAG -  is a pdf of how to setup and execute a RAG system within Azure foundry.
