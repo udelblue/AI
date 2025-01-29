@@ -19,3 +19,5 @@ AWS_bedrock_call_model - Example to call model from AWS bedrock.
 Azure ai foundry - Function calls -  is a pdf of how to setup and execute function calls within Azure foundry.
 
 Azure ai foundry - RAG -  is a pdf of how to setup and execute a RAG system within Azure foundry.
+
+Azure ai foundry - Simple Chat Flow - Code for a simple chat model in ai studio/Foundry
