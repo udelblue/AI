@@ -21,3 +21,5 @@ Azure ai foundry - Function calls -  is a pdf of how to setup and execute functi
 Azure ai foundry - RAG -  is a pdf of how to setup and execute a RAG system within Azure foundry.
 
 Azure ai foundry - Simple Chat Flow - Code for a simple chat model in ai studio/Foundry
+
+Azure ai foundry - Prompty - Simple prompt that leverages your azure foundry endpoint and api key. Just modify the .env
