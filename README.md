@@ -23,3 +23,5 @@ Azure ai foundry - RAG -  is a pdf of how to setup and execute a RAG system with
 Azure ai foundry - Simple Chat Flow - Code for a simple chat model in ai studio/Foundry
 
 Azure ai foundry - Prompty - Simple prompt that leverages your azure foundry endpoint and api key. Just modify the .env
+
+Azure ai foundry - Private Endpoints - Directions on how to setup a private endpoint within azure foundry
