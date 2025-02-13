@@ -25,3 +25,5 @@ Azure ai foundry - Simple Chat Flow - Code for a simple chat model in ai studio/
 Azure ai foundry - Prompty - Simple prompt that leverages your azure foundry endpoint and api key. Just modify the .env
 
 Azure ai foundry - Private Endpoints - Directions on how to setup a private endpoint within azure foundry
+
+Semantic Kernal Simple Agent - C# code that gives a simple agent. Please look at the timeplanner class. You will just need to add your endpoint, key and deployment. Please make sure the deployment is an LLM that supports agents. 
