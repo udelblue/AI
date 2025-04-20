@@ -13,19 +13,19 @@ example of jsonl is located here. https://github.com/openai/openai-cookbook/blob
 
 Create a folder and add the jsonl to the folder. Alter the name of the training data to add a version number (v1, v2, etc). 
 
-![alt text]([http://url/to/img.png](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/1.png))
+![Training Data](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/1.png)
 
 ### Select Model and go through wizard
 
 Add validataion data is needed. This should also be of jsonl format. 
 
-![alt text]([http://url/to/img.png](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/2.png))
+![Wizard](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/2.png)
 
-![alt text]([http://url/to/img.png](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/3.png))
+![Wizard](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/3.png)
 
-![alt text]([http://url/to/img.png](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/4.png))
+![Wizard](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/4.png)
 
-![alt text]([http://url/to/img.png](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/5.png))
+![Wizard](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/5.png)
 
 ### Model Training
 
