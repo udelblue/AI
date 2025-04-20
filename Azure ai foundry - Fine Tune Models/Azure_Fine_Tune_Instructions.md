@@ -31,6 +31,4 @@ Add validataion data is needed. This should also be of jsonl format.
 
 Model training takes time so be patient. 
 
-![Model Training]([https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/6.png](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/6.png))
-
-
+![Model Training](https://raw.githubusercontent.com/udelblue/AI/refs/heads/main/Azure%20ai%20foundry%20-%20Fine%20Tune%20Models/images/6.png)
