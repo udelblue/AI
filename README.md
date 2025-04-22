@@ -27,3 +27,6 @@ Azure ai foundry - Prompty - Simple prompt that leverages your azure foundry end
 Azure ai foundry - Private Endpoints - Directions on how to setup a private endpoint within azure foundry
 
 Semantic Kernal Simple Agent - C# code that gives a simple agent. Please look at the timeplanner class. You will just need to add your endpoint, key and deployment. Please make sure the deployment is an LLM that supports agents. 
+
+ML_Supply_Chain_Demand_Forecasting - ML project doing supply chain demand forecasting using pandas, numpy, matplotlib and sckitlearn
+
